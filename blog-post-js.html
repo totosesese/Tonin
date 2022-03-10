@@ -17,12 +17,12 @@
     <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
     
     <!-- Title -->
-    <title>Mon article</title>
+    <title>Mon article JAVASCRIPT</title>
   </head>
+
   <body>
 
     <!-- NAVBAR -->
-    <!-- ICI JE COPIE A LA PLACE DE LA NAVBAR, CELLE DE LA PAGE BLOG de <nav> jusqu'à </nav> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
     
@@ -49,8 +49,18 @@
           <!-- Navigation -->
           <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarLandings"  href="./blog-post1.html">
+              <a class="nav-link dropdown-toggle" id="navbarLandings"  href="./blog.html">
                 Blog
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarLandings"  href="./blog-post-js.html">
+                Article JS
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarLandings"  href="./blog-post1.html">
+                Article CSS
               </a>
             </li>
             <li class="nav-item dropdown">
@@ -69,8 +79,7 @@
     </nav>
 
     <!-- IMAGE -->
-    <!-- ICI DANS LA BALISE <section> je viens modifier l'attribut style pour CHANGER L'IMAGE -->
-    <section data-jarallax data-speed=".8" class="py-12 py-md-15 bg-cover jarallax" style="background-image: url('https://www.garage404.com/wp-content/uploads/2020/06/atelier-code-combat.jpg');"></section>
+    <section data-jarallax data-speed=".8" class="py-12 py-md-15 bg-cover jarallax" style="background-image: url('./assets/img/illustrations/illustration-1-dark.png');"></section>
 
     <!-- HEADER -->
     <section class="pt-8 pt-md-11">
@@ -80,12 +89,13 @@
 
             <!-- Heading -->
             <h1 class="display-4 text-center">
-              Exercice CSS
+              Exercices JS
             </h1>
 
             <!-- Text -->
             <p class="lead mb-7 text-center text-muted">
-              Nous voyons dans cet article comment mettre du style sur un site internet. Notamment grace au langage CSS et à ses selecteurs
+              Nous voyons dans cet article Javascript :
+              JavaScript est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser.
             </p>
 
             <!-- Meta -->
@@ -107,7 +117,7 @@
 
                 <!-- Date -->
                 <time class="fs-sm text-muted" datetime="2019-05-20">
-                  Publié le 18 décembre 2021
+                  Publié le 05 Mars 2022
                 </time>
 
               </div>
@@ -129,19 +139,16 @@
 
             <!-- Heading -->
             <h2 class="fw-bold">
-              Découverte HTML & CSS
+              Découverte JAVASCRIPT
             </h2>
 
             <!-- Text -->
             <p>
-              J'ai découvert à quoi ressemble le code des sites internet : le HTML et le CSS ! Ce sont les langages de programmation qui permettent qu'un site s'affiche, comme celui que vous voyez en ce moment.
+              J'ai découvert à quoi ressemble le langage javascript : avec Javascript il est possible de modifier dynamiquement le contenu de notre site. En créant du code sur les images, les boutons, ou tout autres élément contenu dans notre code HTML. 
             </p>
             <ul class="mb-0">
               <li>
-                Le code HTML contient des balises qui permettent de faire des blocs de texte, des liens, des images et plein d'autres choses !
-              </li>
-              <li class="mt-4">
-                Le code CSS permet de mettre des polices d'écriture spéciales, des couleurs, des espacements : bref, tout ce qui est design !
+                JavaScript désigne un langage de développement informatique, et plus précisément un langage de script orienté objet. On le retrouve principalement dans les pages Internet. Il permet, entre autres, d'introduire sur une page web ou HTML des petites animations ou des effets.
               </li>
             </ul>
 
@@ -159,10 +166,13 @@
             <!-- Slider -->
             <div data-flickity='{"wrapAround": true, "pageDots": false, "imagesLoaded": true, "adaptiveHeight": true}'>
               <div class="w-100">
-                <img src="./assets/img/screenshots/Capture.PNG" alt="..." class="img-fluid rounded">
+                <img src="./assets/img/screenshots/Capture1_js.PNG" alt="..." class="img-fluid rounded">
               </div>
               <div class="w-100">
-                <img src="./assets/img/screenshots/Capture2.PNG" alt="..." class="img-fluid rounded">
+                <img src="./assets/img/screenshots/Capture2_js.PNG" alt="..." class="img-fluid rounded">
+              </div>
+              <div class="w-100">
+                <img src="./assets/img/screenshots/Capture3_js.PNG" alt="..." class="img-fluid rounded">
               </div>
             </div>
           </div>
@@ -170,71 +180,6 @@
       </div> <!-- / .container -->
     </section>
 
-    <!-- SECTION -->
-    <section class="pt-6 pt-md-8">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-9 col-xl-8">
-
-            <!-- Heading -->
-            <h3 class="fw-bold">
-              https://flukeout.github.io/
-            </h3>
-
-            <!-- Text -->
-            <p class="mb-7">
-              Il s'agit d'un site pour apprendre à utiliser les sélecteurs CSS.
-            </p>
-
-            <!-- Divider -->
-            <hr class="hr-md mb-7">
-
-            <!-- Blockquote -->
-            <blockquote class="blockquote mb-7">
-              <p class="h2 mb-0 text-center text-primary-desat">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </p>
-            </blockquote>
-
-            <!-- Divider -->
-            <hr class="hr-md mb-7">
-
-            <!-- Text -->
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. .
-            </p>
-            <img style="width: 350px" src="assets/img/screenshots/Capture.PNG">
-
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
-
-    <!-- SI TU N'AS RIEN D'AUTRE A RAJOUTER ESSAYE DE SUPPRIMER LA <section> de dessous Ctrl S et regarde le résultat -->
-
-    <!-- SECTION -->
-    <section class="pt-6 pt-md-8">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-9 col-xl-8">
-
-            <!-- Heading -->
-            <h3 class="fw-bold">
-              Small heading for a smaller transition
-            </h3>
-
-            <!-- Text -->
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi reiciendis odio perferendis libero saepe voluptatum fugiat dolore voluptates aut, ut quas doloremque quo ad quis ipsum molestias neque pariatur commodi.
-            </p>
-            <p class="mb-0">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quos, commodi fugiat? Repellat accusantium error quisquam autem magni. Placeat ea dolorem voluptatem sequi veritatis, fugit nisi omnis, aspernatur sint quidem.
-            </p>
-
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
 
     <!-- SHAPE -->
     <div class="position-relative">
